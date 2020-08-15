@@ -1,0 +1,102 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.background-gradient {
+  background: transparent;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0);
+  transition: all .2s;
+  height: 80px;
+
+  .navbar-collapse{
+    transition: all .2s;
+  }
+
+  .navbar-collapse.show {
+    transition: all .2s;
+    padding: 15px 15px 0;
+    border-radius: 15px;
+    background: white;
+
+    ul > li > a{
+      color: rgba(0, 0, 0, 0.55);
+    }
+    ul > li > a.active{
+      color: #8354ef;
+    }
+
+  }
+}
+
+.background-gradient.scrolled {
+  background: #349ded;
+  background: -webkit-gradient(linear, left top, right top, from(#349ded), color-stop(51%, #7176fd), to(#8453ef));
+  background: linear-gradient(to right, #349ded 0%, #7176fd 51%, #8453ef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#349ded', endColorstr='#8453ef', GradientType=1);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.32);
+  transition: all .2s;
+  height: 65px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-left: 25px;
+}
+
+.header-content {
+  height: auto;
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  padding-top: 90px;
+
+  & > img:first-child {
+    object-fit: cover;
+    left: -1px;
+    top: -1px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .main-image {
+    padding: 15px 0;
+    width: 100%;
+  }
+}
+
+.btn {
+  border-radius: 50px !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  padding: 10px 20px !important;
+  text-transform: uppercase;
+}
+
+.navbar-toggler{
+  color: rgba(255,255,255,1) !important;
+  border-color: rgba(255,255,255,1) !important;
+}
+
+.navbar-brand {
+  height: 65px;
+  padding: 0 !important;
+  display: flex;
+
+  img {
+    margin: auto;
+    height: 80%;
+  }
+}
+
+.background-gray{
+  background: #e4ebf4;
+}
+
+footer{
+  background: #e4ebf4;
+  padding: 50px 0;
+}

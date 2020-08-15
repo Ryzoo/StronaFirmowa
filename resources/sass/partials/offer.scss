@@ -1,0 +1,25 @@
+
+section.offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+
+  h3{
+    width: 100%;
+  }
+
+  .offer-element {
+    background: #e4ebf4;
+    border-radius: 15px;
+    width: 350px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all .2s;
+    &:hover{
+      transition: all .2s;
+transform: scale(1.05);
+    }
+  }
+}
