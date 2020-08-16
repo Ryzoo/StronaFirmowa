@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg-6 d-flex">
         <div class="my-auto text-white wow bounceInLeft mb-5">
-          <h1>Oferta przystosowana dla Ciebie</h1>
+          <h1><b>Oferta</b> przystosowana <b>dla Ciebie</b></h1>
           <p>
             W swojej ofercie przygotowane mamy wiele <strong>podstawowych pakietów</strong>, które wybierane są najczęściej.
             Jeśli nie wiesz co wybrać lub nie widzisz oferty odpowiedniej dla siebie, zapraszamy do <a class="text-light" href="{{route('contact')}}"><strong>kontaktu</strong></a>.

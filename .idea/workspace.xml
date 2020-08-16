@@ -20,9 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7e0ca0-9957-4d82-b533-0a41c6cd4793" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/sistersCake/basket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sistersCake/basket_summary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sistersCake/clients.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sistersCake/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sistersCake/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sistersCake/products_admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sistersCake/statistic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/work.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/realization.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/header/work.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/offer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/offer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/header/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/header/offer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header/offer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/site/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/site/footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,10 +181,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/resources/views/partials/site/header" />
       <recent name="$PROJECT_DIR$/resources/views/pages" />
+      <recent name="$PROJECT_DIR$/resources/views/partials/header" />
+      <recent name="$PROJECT_DIR$/resources/views/partials/site/header" />
       <recent name="$PROJECT_DIR$/resources/sass" />
-      <recent name="$PROJECT_DIR$/resources/views/partials" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/partials" />
@@ -196,7 +211,7 @@
       <workItem from="1597317983104" duration="362000" />
       <workItem from="1597428125053" duration="68000" />
       <workItem from="1597501852077" duration="8126000" />
-      <workItem from="1597561707881" duration="7406000" />
+      <workItem from="1597561707881" duration="20512000" />
     </task>
     <task id="LOCAL-00001" summary="fix offer card&#10;add wow js">
       <created>1597568672765</created>
@@ -219,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597569055173</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix go slider">
+      <created>1597569538901</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597569538901</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +261,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix offer card&#10;add wow js" />
     <MESSAGE value="fix routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix routes" />
+    <MESSAGE value="fix go slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix go slider" />
   </component>
   <component name="WindowStateProjectService">
     <state x="704" y="355" width="502" height="415" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597566907891">
@@ -250,14 +273,22 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="688" y="285" width="534" height="555" key="NewPhpClassDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1597568913573" />
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597569057140">
+    <state x="689" y="287" width="540" height="540" key="StructurePopup" timestamp="1597581307701">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597569057140" />
-    <state x="667" y="306" width="585" height="562" key="find.popup" timestamp="1597566972382">
+    <state x="689" y="287" width="540" height="540" key="StructurePopup/0.36.1920.1044@0.36.1920.1044" timestamp="1597581307701" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1597580157546">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="667" y="306" width="585" height="562" key="find.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597566972382" />
+    <state width="498" height="446" key="SwitcherDM/0.36.1920.1044@0.36.1920.1044" timestamp="1597580157546" />
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597569539853">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597569539853" />
+    <state x="667" y="306" width="585" height="562" key="find.popup" timestamp="1597579837532">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="667" y="306" width="585" height="562" key="find.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597579837532" />
     <state x="623" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1597569049778">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>

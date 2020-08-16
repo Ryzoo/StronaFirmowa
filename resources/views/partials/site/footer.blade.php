@@ -8,22 +8,13 @@
         Z wielką przyjemnością wprowadzimy Twoją firmę do sieci, <strong>usprawnimy Twoje procesy</strong> poprzez <strong>dedykowane oprogramowanie</strong>, pokażemy jak za pomocą internetu rozwiązać niejeden problem w firmie.
       </p>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <h5>Podstrony</h5>
       <div class="list-group">
         <a href="{{route('main')}}" class="list-group-item list-group-item-action {{ Route::current()->getName() == 'main' ? 'active' : '' }}">Strona główna</a>
         <a href="{{route('offer')}}" class="list-group-item list-group-item-action {{ Route::current()->getName() == 'offer' ? 'active' : '' }}">Oferta</a>
         <a href="{{route('realization')}}" class="list-group-item list-group-item-action {{ Route::current()->getName() == 'realization' ? 'active' : '' }}">Realizacje</a>
         <a href="{{route('contact')}}" class="list-group-item list-group-item-action {{ Route::current()->getName() == 'contact' ? 'active' : '' }}">Kontakt</a>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <h5>Inne</h5>
-      <div class="list-group">
-        <a href="" class="list-group-item list-group-item-action">Strony internetowe Wadowice</a>
-        <a href="" class="list-group-item list-group-item-action">Strony internetowe Kalwaria Zebrzydowska</a>
-        <a href="" class="list-group-item list-group-item-action">Strony internetowe Bielsko-Biała</a>
-        <a href="" class="list-group-item list-group-item-action">Strony internetowe Kraków</a>
       </div>
     </div>
   </div>

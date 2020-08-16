@@ -8,7 +8,7 @@
       </div>
       <div class="col-lg-6 d-flex">
         <div class="my-auto text-white wow bounceInRight mb-5">
-          <h1>Profesjonalne strony internetowe</h1>
+          <h1><b>Profesjonalne</b> strony internetowe</h1>
           <p>
             Dzisiaj, gdy strony internetowe są bardzo rozpowszechnione, nie wystarczy zwykła strona.
             Tematy takie jak <strong>SEO</strong>, dostępność, indeksy prędkości, dobre praktyki to rzeczy pomijane przez wielu twórców na rynku.

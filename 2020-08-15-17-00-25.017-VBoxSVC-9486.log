@@ -1,0 +1,7 @@
+Log created: 2020-08-15T17:00:25.175653000Z
+Process ID:  9486 (0x250e)
+Parent PID:  1 (0x1)
+Executable:  /usr/lib/virtualbox/VBoxSVC
+Arg[0]: /usr/lib/virtualbox/VBoxSVC
+Arg[1]: --auto-shutdown
+AddRef: illegal refcnt=3221225469 state=2
