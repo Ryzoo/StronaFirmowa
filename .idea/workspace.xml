@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac7e0ca0-9957-4d82-b533-0a41c6cd4793" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/ContactMessageMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ContactMessageMail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/header/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header/contact.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +197,7 @@
       <workItem from="1597317983104" duration="362000" />
       <workItem from="1597428125053" duration="68000" />
       <workItem from="1597501852077" duration="8126000" />
-      <workItem from="1597561707881" duration="28552000" />
+      <workItem from="1597561707881" duration="29291000" />
     </task>
     <task id="LOCAL-00001" summary="fix offer card&#10;add wow js">
       <created>1597568672765</created>
@@ -297,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597593903957</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix emails">
+      <created>1597594249166</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1597594249166</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +331,8 @@
     <MESSAGE value="migration queue" />
     <MESSAGE value="change lang" />
     <MESSAGE value="add g tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="add g tags" />
+    <MESSAGE value="fix emails" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix emails" />
   </component>
   <component name="WindowStateProjectService">
     <state x="704" y="355" width="502" height="415" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597566907891">
@@ -347,10 +355,10 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.36.1920.1044@0.36.1920.1044" timestamp="1597580157546" />
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597593904924">
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597594250261">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597593904924" />
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597594250261" />
     <state x="667" y="306" width="585" height="562" key="find.popup" timestamp="1597591513136">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>

@@ -8,6 +8,38 @@
           <p>
             Z chęcią odpowiedmy na <strong>wszelkie pytania</strong>. Pomożemy z wyborem <b>oferty</b>, nakreślimy dla Ciebie <b>dalsze kroki</b>.
           </p>
+          <hr/>
+          <div class="text-white">
+            <table class="w-100">
+              <tr>
+                <td><i class="fa fa-fw fa-phone"></i> Telefon kontaktowy</td>
+                <td><a class="text-white" href="tel: 728-290-788">728-290-788</a></td>
+              </tr>
+              <tr>
+                <td><i class="fa fa-fw fa-envelope"></i> Adres email</td>
+                <td><a class="text-white" href="mailto: biuro@stronafirmowa.online">biuro@stronafirmowa.online</a></td>
+              </tr>
+              <tr>
+                <td><i class="fab fa-fw fa-facebook"></i> Facebook</td>
+                <td><a class="text-white" href="https://www.facebook.com/StronaFirmowa.online">/StronaFirmowa.online</a></td>
+              </tr>
+            </table>
+            <hr/>
+            <table class="w-100">
+              <tr>
+                <td><i class="fa fa-fw fa-home"></i> Adres</td>
+                <td>Jaroszowice 358 <br/>34-100 Wadowice</td>
+              </tr>
+              <tr>
+                <td><i class="fa fa-fw fa-clock"></i> Godziny pracy</td>
+                <td><b>Pon. - Ndz.</b> od 10 do 20</td>
+              </tr>
+              <tr>
+                <td><i class="fa fa-fw fa-building"></i> NIP</td>
+                <td>5512644393</td>
+              </tr>
+            </table>
+          </div>
           <div class="d-flex pt-3 flex-wrap text-justify justify-content-end mb-5">
             <a class="btn btn-lg btn-light my-2 mr-2" href="{{route('realization')}}">Realizacje</a>
             <a class="btn btn-lg btn-outline-light my-2" href="{{route('offer')}}">Nasza oferta</a>
@@ -84,17 +116,4 @@
 
 @push('scripts')
   {!! NoCaptcha::renderJs('pl') !!}
-{{--  <script>--}}
-{{--    function initMap() {--}}
-{{--      const localization = {lat: 49.864844, lng: 19.675952};--}}
-{{--      const map = new google.maps.Map(document.getElementById('map'), {--}}
-{{--        zoom: 17,--}}
-{{--        center: localization,--}}
-{{--        gestureHandling: 'cooperative'--}}
-{{--      });--}}
-{{--      new google.maps.Marker({position: localization, map: map});--}}
-{{--    }--}}
-{{--  </script>--}}
-{{--  <script async defer--}}
-{{--          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-RT-2mpOPhxI9B-xYafZqQDfKSHO1dsc&callback=initMap"></script>--}}
 @endpush
