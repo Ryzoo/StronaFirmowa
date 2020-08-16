@@ -27,6 +27,6 @@ class ContactMessageMail extends Mailable
 		return $this
 			->to(env('MAIL_FROM_ADDRESS'))
 			->subject('Nowa wiadomość z formularza!')
-			->markdown('emails.contact');
+			->markdown('mails.contact');
     }
 }
