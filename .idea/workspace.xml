@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7e0ca0-9957-4d82-b533-0a41c6cd4793" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/header/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/StronaFirmowa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StronaFirmowa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/header/work.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header/work.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/site/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/site/footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +150,7 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/anhskohbo/no-captcha" />
     </include_path>
   </component>
   <component name="ProjectId" id="1g2b1pVvexdlmZzcehSmEEFV8fz" />
@@ -158,16 +166,16 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/partials/header" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/resources/views/pages" />
       <recent name="$PROJECT_DIR$/resources/views/partials/header" />
+      <recent name="$PROJECT_DIR$/resources/views/pages" />
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/resources/views/partials/site/header" />
       <recent name="$PROJECT_DIR$/resources/sass" />
     </key>
@@ -196,7 +204,7 @@
       <workItem from="1597317983104" duration="362000" />
       <workItem from="1597428125053" duration="68000" />
       <workItem from="1597501852077" duration="8126000" />
-      <workItem from="1597561707881" duration="22999000" />
+      <workItem from="1597561707881" duration="25552000" />
     </task>
     <task id="LOCAL-00001" summary="fix offer card&#10;add wow js">
       <created>1597568672765</created>
@@ -240,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597588331110</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add fb and icon">
+      <created>1597588639247</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597588639247</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,14 +297,18 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.36.1920.1044@0.36.1920.1044" timestamp="1597580157546" />
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597588332493">
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597588640175">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597588332493" />
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597588640175" />
     <state x="667" y="306" width="585" height="562" key="find.popup" timestamp="1597579837532">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="667" y="306" width="585" height="562" key="find.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597579837532" />
+    <state x="624" y="253" key="run.anything.popup" timestamp="1597589775098">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="624" y="253" key="run.anything.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597589775098" />
     <state x="623" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1597569049778">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>

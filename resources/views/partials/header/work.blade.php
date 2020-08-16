@@ -6,7 +6,7 @@
         <img class="main-image px-5" src="{{asset('images/work.svg')}}" alt="work image">
       </div>
       <div class="col-lg-6 d-flex">
-        <div class="my-auto text-white wow bounceInLeft mb-5">
+        <div class="my-auto text-white wow bounceInRight mb-5">
           <h1><b>Ta praca</b> to nasza <b>pasja</b></h1>
           <p>
             Mamy za sobą <b>kilka lat doświadczenia</b> w tworzeniu <b>stron</b>, <b>platform</b> oraz <b>aplikacji</b>. <br/>

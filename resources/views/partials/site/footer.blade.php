@@ -24,8 +24,8 @@
     </div>
     <div class="col d-flex align-items-center">
       <span>Bądź na bieżąco:</span>
-      <a href="" class="text-white btn btn-primary btn-sm ml-2"><i class="fab fa-facebook-square"></i></a>
-      <a href="" class="text-white btn btn-primary btn-sm ml-2"><i class="fab fa-google"></i></a>
+      <a href="https://www.facebook.com/StronaFirmowa.online" class="text-white btn btn-primary btn-sm ml-2"><i class="fab fa-facebook-square"></i></a>
+{{--      <a href="" class="text-white btn btn-primary btn-sm ml-2"><i class="fab fa-google"></i></a>--}}
     </div>
   </div>
 </div>
