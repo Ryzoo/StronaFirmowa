@@ -41,6 +41,7 @@
         @stack('css')
     </head>
     <body>
+        <div id="fb-root"></div>
         <header>
             @include('partials.site.navigation')
             @yield('header')
@@ -51,6 +52,14 @@
             @yield('content')
         </main>
 
+        <div class="fb-customerchat"
+             attribution=setup_tool
+             page_id="107138147773786"
+             theme_color="#389eed"
+             logged_in_greeting="Dzień dobry! W czym możemy Ci pomóc?"
+             logged_out_greeting="Dzień dobry! W czym możemy Ci pomóc?">
+        </div>
+
         <!-- Footer -->
         <footer>
             @include('partials.site.footer')
@@ -58,6 +67,23 @@
 
         <!-- Scripts -->
         @stack('scripts')
+        <!-- Load Facebook SDK for JavaScript -->
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v8.0'
+            });
+          };
+
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+
         <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
