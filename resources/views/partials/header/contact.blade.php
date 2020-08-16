@@ -46,8 +46,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 p-5 wow bounceInDown">
-        <div class="base-card bg-white" style="width: 100%; max-width: 400px">
+      <div class="col-lg-6 wow bounceInDown">
+        <div class="base-card bg-white" style="margin: 0px; width: 100%; max-width: 500px">
           <h2 class="page-slogan"><b>Napisz</b> do nas</h2>
           @if (session('status'))
             <div class="alert alert-success" role="alert">

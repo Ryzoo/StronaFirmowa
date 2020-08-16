@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7e0ca0-9957-4d82-b533-0a41c6cd4793" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/header/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header/contact.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +210,7 @@
       <workItem from="1597317983104" duration="362000" />
       <workItem from="1597428125053" duration="68000" />
       <workItem from="1597501852077" duration="8126000" />
-      <workItem from="1597561707881" duration="30869000" />
+      <workItem from="1597561707881" duration="32094000" />
     </task>
     <task id="LOCAL-00001" summary="fix offer card&#10;add wow js">
       <created>1597568672765</created>
@@ -344,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597596335065</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add app id">
+      <created>1597596562479</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1597596562479</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +383,8 @@
     <MESSAGE value="fix contact page" />
     <MESSAGE value="add site map" />
     <MESSAGE value="fix og url" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix og url" />
+    <MESSAGE value="add app id" />
+    <option name="LAST_COMMIT_MESSAGE" value="add app id" />
   </component>
   <component name="WindowStateProjectService">
     <state x="704" y="355" width="502" height="415" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597566907891">
@@ -398,10 +407,10 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.36.1920.1044@0.36.1920.1044" timestamp="1597580157546" />
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597596336425">
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597596591466">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597596336425" />
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597596591466" />
     <state x="667" y="306" width="585" height="562" key="find.popup" timestamp="1597591513136">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
