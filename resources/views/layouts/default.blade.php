@@ -56,6 +56,8 @@
              attribution=setup_tool
              page_id="107138147773786"
              theme_color="#389eed"
+             greeting_dialog_display="fade"
+             greeting_dialog_delay="5"
              logged_in_greeting="Dzień dobry! W czym możemy Ci pomóc?"
              logged_out_greeting="Dzień dobry! W czym możemy Ci pomóc?">
         </div>
