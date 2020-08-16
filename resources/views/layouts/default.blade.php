@@ -15,6 +15,8 @@
         <meta itemprop="description" content="@yield('meta-description')">
         <meta itemprop="image" content="{{asset('images/default.webp')}}">
 
+        <meta property="fb:app_id" content="300416041066243"/>
+
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@publisher_handle">
