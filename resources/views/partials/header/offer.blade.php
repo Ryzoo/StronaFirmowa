@@ -3,7 +3,7 @@
   <div class="container my-auto">
     <div class="row">
       <div class="col-lg-6 d-flex">
-        <div class="my-auto text-white wow bounceInLeft">
+        <div class="my-auto text-white wow bounceInLeft mb-5">
           <h1>Oferta przystosowana dla Ciebie</h1>
           <p>
             W swojej ofercie przygotowane mamy wiele <strong>podstawowych pakietów</strong>, które wybierane są najczęściej.
@@ -12,7 +12,7 @@
             <br/>
             <strong>Pomożemy z wyborem i przygotujemy ofertę specjalnie dla Ciebie, Twojej firmy</strong>.
           </p>
-          <div class="d-flex pt-3 flex-wrap text-justify justify-content-end">
+          <div class="d-flex pt-3 flex-wrap text-justify justify-content-end mb-5">
             <a class="btn btn-lg btn-light my-2 mr-2" href="{{route('contact')}}">Skontaktuj się z nami</a>
             <a class="btn btn-lg btn-outline-light my-2" href="{{route('realization')}}">Realizacje</a>
           </div>
