@@ -13,7 +13,7 @@
         <!-- Schema.org markup for Google+ -->
         <meta itemprop="name" content="Strony dla firm | @yield('meta-title')">
         <meta itemprop="description" content="@yield('meta-description')">
-        <meta itemprop="image" content="@yield('meta-img')">
+        <meta itemprop="image" content="{{asset('images/default.webp')}}">
 
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary_large_image">
@@ -21,13 +21,13 @@
         <meta name="twitter:title" content="Strony dla firm | @yield('meta-title')">
         <meta name="twitter:description" content="@yield('meta-description')">
         <meta name="twitter:creator" content="@author_handle">
-        <meta name="twitter:image:src" content="@yield('meta-img')">
+        <meta name="twitter:image:src" content="{{asset('images/default.webp')}}">
 
         <!-- Open Graph data -->
         <meta property="og:title" content="Strony dla firm | @yield('meta-title')"/>
         <meta property="og:type" content="article"/>
         <meta property="og:url" content="{{url()->current()}}"/>
-        <meta property="og:image" content="@yield('meta-img')"/>
+        <meta property="og:image" content="{{asset('images/default.webp')}}"/>
         <meta property="og:description" content="@yield('meta-description')"/>
         <meta property="og:site_name" content="Strony dla firm"/>
 
