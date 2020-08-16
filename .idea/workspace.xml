@@ -20,16 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7e0ca0-9957-4d82-b533-0a41c6cd4793" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/lang/pl/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/pl/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/pl/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/pl/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +197,7 @@
       <workItem from="1597317983104" duration="362000" />
       <workItem from="1597428125053" duration="68000" />
       <workItem from="1597501852077" duration="8126000" />
-      <workItem from="1597561707881" duration="27530000" />
+      <workItem from="1597561707881" duration="28210000" />
     </task>
     <task id="LOCAL-00001" summary="fix offer card&#10;add wow js">
       <created>1597568672765</created>
@@ -291,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597592973811</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="change lang">
+      <created>1597593227417</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597593227417</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +315,8 @@
     <MESSAGE value="add fb and icon" />
     <MESSAGE value="contact page" />
     <MESSAGE value="migration queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="migration queue" />
+    <MESSAGE value="change lang" />
+    <option name="LAST_COMMIT_MESSAGE" value="change lang" />
   </component>
   <component name="WindowStateProjectService">
     <state x="704" y="355" width="502" height="415" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597566907891">
@@ -339,10 +339,10 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.36.1920.1044@0.36.1920.1044" timestamp="1597580157546" />
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597592975430">
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597593228572">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597592975430" />
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597593228572" />
     <state x="667" y="306" width="585" height="562" key="find.popup" timestamp="1597591513136">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
@@ -351,9 +351,9 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="624" y="253" key="run.anything.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597589775098" />
-    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1597592482675">
+    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1597593392680">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597592482675" />
+    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597593392680" />
   </component>
 </project>
