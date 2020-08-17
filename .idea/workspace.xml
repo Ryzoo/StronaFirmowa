@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7e0ca0-9957-4d82-b533-0a41c6cd4793" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +230,7 @@
       <workItem from="1597428125053" duration="68000" />
       <workItem from="1597501852077" duration="8126000" />
       <workItem from="1597561707881" duration="32699000" />
-      <workItem from="1597667117255" duration="592000" />
+      <workItem from="1597667117255" duration="819000" />
     </task>
     <task id="LOCAL-00001" summary="fix offer card&#10;add wow js">
       <created>1597568672765</created>
@@ -415,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597667597200</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix seeder">
+      <created>1597667730000</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1597667730000</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,10 +482,10 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.36.1920.1044@0.36.1920.1044" timestamp="1597580157546" />
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597667598342">
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597667730955">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597667598342" />
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597667730955" />
     <state x="667" y="306" width="585" height="562" key="find.popup" timestamp="1597666437001">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
