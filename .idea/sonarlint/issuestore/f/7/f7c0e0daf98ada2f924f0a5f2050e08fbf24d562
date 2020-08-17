@@ -1,0 +1,7 @@
+
+i	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(¯ žö
+€	php:S1192p"fDefine a constant instead of duplicating this literal "voyager::seeders.data_rows.updated_at" 3 times.(Ñ‰Ã²ûÿÿÿÿ
+t	php:S1192%"`Define a constant instead of duplicating this literal "voyager::seeders.data_rows.name" 3 times.(Š©ä.
+x	php:S1192"^Define a constant instead of duplicating this literal "voyager::seeders.data_rows.id" 3 times.(“™¡úüÿÿÿÿ
+{	php:S1192a"fDefine a constant instead of duplicating this literal "voyager::seeders.data_rows.created_at" 3 times.(É–Ðú
+‡php:S138"sThis function "run" has 321 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(¯ žö

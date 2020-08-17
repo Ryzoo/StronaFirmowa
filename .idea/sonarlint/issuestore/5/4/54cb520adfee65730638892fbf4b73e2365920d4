@@ -1,0 +1,4 @@
+
+i	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(¯ žö
+s	php:S1192Ï"]Define a constant instead of duplicating this literal "keyword1, keyword2, keyword3" 4 times.(ÐßÜÅ
+‡php:S138"sThis function "run" has 355 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(¯ žö
