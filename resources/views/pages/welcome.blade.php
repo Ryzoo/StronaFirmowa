@@ -1,6 +1,7 @@
 @extends('layouts.default')
 
 @section('meta-title') Profesjonalne strony, platformy, aplikacje @endsection
+@section('meta-img') {{asset('images/default.webp')}} @endsection
 @section('meta-description')
     Nie tylko przygotujemy Twoją firmę na wejście do sieci. Chętnie podzielimy się doświadczeniem i pokażemy jak radzą sobie z podobnymi problemami inne firmy.
     Dla nas klient to partner biznesowy i dlatego jesteśmy dla Ciebie dostępni przez większość czasu, aby wspomóc Twój rozwój jak tylko potrafimy.

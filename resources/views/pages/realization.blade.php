@@ -1,6 +1,7 @@
 @extends('layouts.default')
 
 @section('meta-title') Realizacje @endsection
+@section('meta-img') {{asset('images/default.webp')}} @endsection
 @section('meta-description')
     Mamy za sobą kilka lat doświadczenia w tworzeniu stron, platform oraz aplikacji.
     W swoim portfolio mamy współpracę z wieloma firmami - zarówno tymi, które dopiero stawiały swoje pierwsze kroki jak i tymi, które już wiele lat są na rynku.

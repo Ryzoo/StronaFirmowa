@@ -13,7 +13,7 @@
         <!-- Schema.org markup for Google+ -->
         <meta itemprop="name" content="Strony dla firm | @yield('meta-title')">
         <meta itemprop="description" content="@yield('meta-description')">
-        <meta itemprop="image" content="{{asset('images/default.webp')}}">
+        <meta itemprop="image" content="@yield('meta-img')">
 
         <meta property="fb:app_id" content="300416041066243"/>
 
