@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7e0ca0-9957-4d82-b533-0a41c6cd4793" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12eaab6649cd172670ec4a438e4c4ffe7c7ac2eb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12eaab6649cd172670ec4a438e4c4ffe7c7ac2eb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7c0e0daf98ada2f924f0a5f2050e08fbf24d562" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7c0e0daf98ada2f924f0a5f2050e08fbf24d562" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/post.blade.php" afterDir="false" />
     </list>
@@ -235,7 +232,7 @@
       <workItem from="1597501852077" duration="8126000" />
       <workItem from="1597561707881" duration="32699000" />
       <workItem from="1597667117255" duration="1618000" />
-      <workItem from="1597670475423" duration="44000" />
+      <workItem from="1597670475423" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="fix offer card&#10;add wow js">
       <created>1597568672765</created>
@@ -440,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597669736468</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix meta of page">
+      <created>1597670532133</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1597670532133</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +482,8 @@
     <MESSAGE value="add blog" />
     <MESSAGE value="change seeder" />
     <MESSAGE value="fix seeder" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix seeder" />
+    <MESSAGE value="fix meta of page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix meta of page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="704" y="355" width="502" height="415" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597566907891">
@@ -501,10 +506,10 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.36.1920.1044@0.36.1920.1044" timestamp="1597580157546" />
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597669737748">
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1597670535702">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597669737748" />
+    <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597670535702" />
     <state x="667" y="306" width="585" height="562" key="find.popup" timestamp="1597666437001">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
