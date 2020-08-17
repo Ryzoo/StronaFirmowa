@@ -11034,6 +11034,8 @@ button.close {
 html,
 body {
   font-family: "Poppins", sans-serif !important;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .background-gradient {
@@ -11107,7 +11109,7 @@ body {
   border-radius: 50px !important;
   font-weight: 500 !important;
   font-size: 15px !important;
-  padding: 10px 20px !important;
+  padding: 5px 15px !important;
   text-transform: uppercase;
 }
 
@@ -11134,7 +11136,7 @@ body {
 @media (max-width: 990px) {
   .navbar-brand img {
     height: 80%;
-    margin: 0 auto;
+    margin: 8px auto 0;
   }
 }
 
@@ -11274,6 +11276,86 @@ footer {
   border: 5px solid #359ded;
   margin: 15px auto;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.post-full {
+  padding: 0 !important;
+  flex-direction: column;
+}
+
+.post-full .post-image {
+  width: 100% !important;
+  height: 300px !important;
+  margin: -25px -50px 0 !important;
+}
+
+.post-full .post-data {
+  width: 100% !important;
+  position: relative !important;
+}
+
+.post {
+  position: relative;
+  max-width: 800px;
+  background: white;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 25px auto;
+}
+
+@media (max-width: 768px) {
+  .post {
+    padding: 0 !important;
+    flex-direction: column;
+    margin: 25px;
+    width: calc(100% - 50px);
+  }
+
+  .post .post-image {
+    width: 100% !important;
+    height: 300px !important;
+    margin: -25px -50px 0 !important;
+  }
+
+  .post .post-data {
+    width: 100% !important;
+    position: relative !important;
+  }
+}
+
+.post .post-image {
+  position: relative !important;
+  width: 40%;
+  margin: -25px 0 -25px -50px;
+  height: calc(100% + 50px);
+}
+
+.post .post-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.post .post-image a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.post .post-date {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.post .post-data {
+  width: 60%;
+  padding: 25px;
 }
 
 section.offer-container {

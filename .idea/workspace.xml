@@ -20,8 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7e0ca0-9957-4d82-b533-0a41c6cd4793" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/blog.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/post.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/header/blog.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/header/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/StronaFirmowa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StronaFirmowa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BasePageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BasePageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/site/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/site/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/site/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/site/navigation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +45,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -156,6 +177,19 @@
       <path value="$PROJECT_DIR$/vendor/spatie/robots-txt" />
       <path value="$PROJECT_DIR$/vendor/spatie/crawler" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-sitemap" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/larapack/voyager-hooks" />
+      <path value="$PROJECT_DIR$/vendor/larapack/hooks" />
+      <path value="$PROJECT_DIR$/vendor/arrilot/laravel-widgets" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/larapack/doctrine-support" />
+      <path value="$PROJECT_DIR$/vendor/tcg/voyager" />
     </include_path>
   </component>
   <component name="ProjectId" id="1g2b1pVvexdlmZzcehSmEEFV8fz" />
@@ -171,25 +205,25 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/partials/header" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/lang" />
-      <recent name="$PROJECT_DIR$/resources/views/partials/header" />
-      <recent name="$PROJECT_DIR$/resources/views/pages" />
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/resources/views/partials/site/header" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/resources/views/partials" />
       <recent name="$PROJECT_DIR$/resources/views/pages" />
       <recent name="$PROJECT_DIR$/resources/views/partials/site" />
       <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/partials/header" />
+      <recent name="$PROJECT_DIR$/resources/views/pages" />
+      <recent name="$PROJECT_DIR$/resources/lang" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/resources/views/partials/site/header" />
     </key>
   </component>
   <component name="RunManager">
@@ -382,6 +416,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix offer card&#10;add wow js" />
@@ -427,17 +462,17 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="555" y="294" width="800" height="538" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1597598966784" />
-    <state x="667" y="306" width="585" height="562" key="find.popup" timestamp="1597599184995">
+    <state x="667" y="306" width="585" height="562" key="find.popup" timestamp="1597666437001">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="667" y="306" width="585" height="562" key="find.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597599184995" />
+    <state x="667" y="306" width="585" height="562" key="find.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597666437001" />
     <state x="624" y="253" key="run.anything.popup" timestamp="1597589775098">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="624" y="253" key="run.anything.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597589775098" />
-    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1597598951903">
+    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1597665216473">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597598951903" />
+    <state x="623" y="266" width="672" height="678" key="search.everywhere.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1597665216473" />
   </component>
 </project>

@@ -20,6 +20,9 @@
         <li class="nav-item">
           <a class="nav-link {{ Route::current()->getName() == 'contact' ? 'active' : '' }}" aria-current="page" href="{{route('contact')}}">Kontakt</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Route::current()->getName() == 'blog' ? 'active' : '' }}" aria-current="page" href="{{route('blog')}}">Blog</a>
+        </li>
       </ul>
     </div>
   </div>

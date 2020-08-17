@@ -7,6 +7,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ContactMessageSendRequest;
 use App\Mail\ContactMessageMail;
 use Illuminate\Support\Facades\Mail;
+use TCG\Voyager\Models\Post;
 
 class BasePageController
 {
@@ -28,6 +29,21 @@ class BasePageController
 	public function showContactView()
 	{
 		return view('pages.contact');
+	}
+
+	public function showBlogView()
+	{
+		return view('pages.blog', [
+			"posts" => Post::where('status', 'published')
+				->simplePaginate(10)
+		]);
+	}
+
+	public function showBlogPostView(Post $post)
+	{
+		return view('pages.post', [
+			"post" => $post
+		]);
 	}
 
 	public function sendMessage(ContactMessageSendRequest $request)

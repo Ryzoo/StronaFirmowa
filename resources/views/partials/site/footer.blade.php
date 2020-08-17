@@ -15,6 +15,7 @@
         <a href="{{route('offer')}}" class="list-group-item list-group-item-action {{ Route::current()->getName() == 'offer' ? 'active' : '' }}">Oferta</a>
         <a href="{{route('realization')}}" class="list-group-item list-group-item-action {{ Route::current()->getName() == 'realization' ? 'active' : '' }}">Realizacje</a>
         <a href="{{route('contact')}}" class="list-group-item list-group-item-action {{ Route::current()->getName() == 'contact' ? 'active' : '' }}">Kontakt</a>
+        <a href="{{route('blog')}}" class="list-group-item list-group-item-action {{ Route::current()->getName() == 'blog' ? 'active' : '' }}">Blog</a>
       </div>
     </div>
   </div>
