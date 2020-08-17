@@ -115,3 +115,10 @@ X
 (database/seeds/VoyagerDatabaseSeeder.php,5/f/5f8b42003a8c8bbc7da957e33172e44b8b74de33
 S
 #database/seeds/UsersTableSeeder.php,8/9/890525bbf99e89472bf168ef5a2f3d9e37edb949
+M
+storage/app/public/.gitignore,9/7/97928df0de452b98741ab5da29b5b240dbde3dce
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+Q
+!database/seeds/DatabaseSeeder.php,1/b/1bfb05dc7f9d1708ffc561e370a53ad2df3db646

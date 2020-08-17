@@ -1,8 +1,8 @@
 @extends('layouts.default')
 
-@section('meta-title') Post @endsection
+@section('meta-title') {{$post->meta_title}} @endsection
 @section('meta-description')
-    Zapoznaj się z ciekawymi materiałami. Informacje techniczne, porady dotyczące reklam i wiele więcej.
+    {{$post->meta_description}}
 @endsection
 
 @section('header')
