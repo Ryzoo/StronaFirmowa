@@ -122,3 +122,5 @@ M
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 Q
 !database/seeds/DatabaseSeeder.php,1/b/1bfb05dc7f9d1708ffc561e370a53ad2df3db646
+[
++resources/views/pages/realization.blade.php,a/d/ad78463bd308d3ca1ba1f53cac67bb68f7f4cbfb

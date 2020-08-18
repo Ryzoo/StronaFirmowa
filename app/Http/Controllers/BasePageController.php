@@ -35,6 +35,7 @@ class BasePageController
 	{
 		return view('pages.blog', [
 			"posts" => Post::where('status', 'published')
+				->orderBy('created_at', 'desc')
 				->simplePaginate(10)
 		]);
 	}
